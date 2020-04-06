@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java" line="41" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52805cdd-3d4b-410a-b6b0-3b876bafb5cd" name="Default" comment="" />
+    <list default="true" id="52805cdd-3d4b-410a-b6b0-3b876bafb5cd" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,57 +39,9 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PtzDevices.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4640">
-              <caret line="234" column="19" lean-forward="false" selection-start-line="234" selection-start-column="19" selection-end-line="234" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3122#3123#0" expanded="true" />
-                <element signature="e#3178#3179#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbsoluteMoveResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="-173">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediaDevices.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
-              <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnvifDevice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3680">
-              <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -106,6 +62,9 @@
       <find>replaceLocalIpWithProxyIp</find>
       <find>pan ma</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -152,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,25 +134,13 @@
               <item name="OnvifCamera" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="OnvifCamera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="onvif-2016-03-16" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="OnvifCamera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="onvif-2016-03-16" type="70bed36:NamedLibraryElementNode" />
-              <item name="onvif-2016-03-16.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +150,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Onvif_Lib/release/onvif-2016-03-16.jar!/" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -351,12 +299,13 @@
       <workItem from="1585912404923" duration="43000" />
       <workItem from="1586170480752" duration="2997000" />
       <workItem from="1586174272075" duration="83000" />
-      <workItem from="1586175794523" duration="487000" />
+      <workItem from="1586175794523" duration="602000" />
+      <workItem from="1586179854018" duration="284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31758000" />
+    <option name="totallyTimeSpent" value="32157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="741" extended-state="6" />
@@ -365,29 +314,29 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33730835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70187396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2793867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.70034844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8066202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124423966" sideWeight="0.49403748" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12672812" sideWeight="0.49403748" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961598" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12519202" sideWeight="0.50596255" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33730835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -400,7 +349,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -413,47 +362,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4640">
-          <caret line="234" column="19" lean-forward="false" selection-start-line="234" selection-start-column="19" selection-end-line="234" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3680">
-          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,352 +370,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4680">
-          <caret line="234" column="19" lean-forward="false" selection-start-line="234" selection-start-column="19" selection-end-line="234" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3680">
-          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java" />
     <entry file="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3040">
-          <caret line="198" column="44" lean-forward="false" selection-start-line="198" selection-start-column="44" selection-end-line="198" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java" />
     <entry file="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="198" column="44" lean-forward="true" selection-start-line="198" selection-start-column="44" selection-end-line="198" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java" />
     <entry file="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java" />
     <entry file="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java" />
     <entry file="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java" />
     <entry file="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java" />
+    <entry file="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/release/onvif-2016-03-16.jar!/de/onvif/log/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/release/onvif-2016-03-16.jar!/de/onvif/soap/devices/InitialDevices.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1499">
-          <caret line="141" column="39" lean-forward="true" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java" />
+    <entry file="jar://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/release/onvif-2016-03-16.jar!/de/onvif/log/Logger.class" />
+    <entry file="jar://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/release/onvif-2016-03-16.jar!/de/onvif/soap/devices/InitialDevices.class" />
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_111/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-367">
@@ -814,13 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/release/onvif-2016-03-16.jar!/de/onvif/soap/OnvifDevice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/release/onvif-2016-03-16.jar!/de/onvif/soap/OnvifDevice.class" />
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_111/src.zip!/javax/xml/bind/annotation/XmlAccessorType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -828,51 +479,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3680">
-          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4640">
-          <caret line="234" column="19" lean-forward="false" selection-start-line="234" selection-start-column="19" selection-end-line="234" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/org/onvif/ver20/ptz/wsdl/AbsoluteMoveResponse.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/MediaDevices.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/OnvifDevice.java" />
+    <entry file="file://$PROJECT_DIR$/../Onvif_Lib/onvif-java-lib/src/de/onvif/soap/devices/PtzDevices.java" />
     <entry file="file://$PROJECT_DIR$/src/Connection/PTZCamera/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-173">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,6 +555,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>onvif-2016-03-16</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
