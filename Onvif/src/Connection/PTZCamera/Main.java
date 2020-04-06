@@ -23,9 +23,12 @@ public class Main {
 
     public static void main(String[] args){
         try {
+            // Connect to Onvif camera (onvif account)
             OnvifDevice  nvt = new OnvifDevice("115.78.5.10:9080", "onvif", "ViettelRD123aB");
+            // Get datetime from Onvif camera (No authentication required)
             Date nvtDate = nvt.getDevices().getDate();
             System.out.println(new SimpleDateFormat("dd/MM/yyyy HH:mm:ss z").format(nvtDate));
+
             MediaDevices mediaDevices = nvt.getMedia();
             PtzDevices   ptzDevices   = nvt.getPtz();
             ImagingDevices imagingDevices = nvt.getImaging();
@@ -37,7 +40,6 @@ public class Main {
 
             System.out.println("Media RTSP Streaming URI: " + mediaDevices.getRTSPStreamUri(profileToken));
             System.out.println("Media HTTP Streaming URI: " + mediaDevices.getHTTPStreamUri(profileToken));
-
             System.out.println("Snapshot URI: " + mediaDevices.getSnapshotUri(profileToken));
 
             if (ptzDevices.isPtzOperationsSupported(profileToken)){
@@ -51,9 +53,11 @@ public class Main {
                 FloatRange zomRange = ptzDevices.getZoomSpaces(profileToken);
                 float zoom = zomRange.getMax();
 
+                // Retain the camera position
                 float panPos = ptzDevices.getPosition(profileToken).getPanTilt().getX();
                 float tilPos = ptzDevices.getPosition(profileToken).getPanTilt().getY();
                 float zomPos = ptzDevices.getPosition(profileToken).getZoom().getX();
+                
                 System.out.println("Pan Position:  " + panPos);
                 System.out.println("Tilt Position:  " + tilPos);
                 System.out.println("Zoom Position:  " + zomPos);
@@ -83,12 +87,12 @@ public class Main {
                     }
                 }
 
-                /*if (ptzDevices.isRelativeMoveSupported(profileToken)){
+                if (ptzDevices.isRelativeMoveSupported(profileToken)){
                     boolean isSuccess = ptzDevices.relativeMove(profileToken,x, y, zoom/2f);
                     System.out.println("Relative Move return code: " + isSuccess);
                 }else{
                     System.out.println("Relative Move not supported");
-                }*/
+                }
 
 
             }
