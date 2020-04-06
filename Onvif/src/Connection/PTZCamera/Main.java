@@ -3,6 +3,7 @@ import java.net.ConnectException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
 
 import javax.xml.soap.SOAPException;
 
@@ -57,7 +58,7 @@ public class Main {
                 float panPos = ptzDevices.getPosition(profileToken).getPanTilt().getX();
                 float tilPos = ptzDevices.getPosition(profileToken).getPanTilt().getY();
                 float zomPos = ptzDevices.getPosition(profileToken).getZoom().getX();
-                
+
                 System.out.println("Pan Position:  " + panPos);
                 System.out.println("Tilt Position:  " + tilPos);
                 System.out.println("Zoom Position:  " + zomPos);
@@ -69,10 +70,13 @@ public class Main {
                 System.out.println("zoom max: " + zomRange.getMax());
                 System.out.println("zoom min: " + zomRange.getMin());
 
-              /*  float x = (panRange.getMax() + panRange.getMin())/2f;
-                float y = (tilRange.getMax() + tilRange.getMin())/2f;*/
-
                 for (int i = 0; i<20; i++){
+
+                    panPos = ptzDevices.getPosition(profileToken).getPanTilt().getX();
+                    tilPos = ptzDevices.getPosition(profileToken).getPanTilt().getY();
+                    zomPos = ptzDevices.getPosition(profileToken).getZoom().getX();
+
+                    // Absolute movement
                     if (ptzDevices.isAbsoluteMoveSupported(profileToken)){
                         boolean isSuccess = ptzDevices.absoluteMove(profileToken, panPos, tilPos, changZoom());
                         System.out.println("Absolute Move return code: " + isSuccess);
@@ -80,19 +84,29 @@ public class Main {
                         System.out.println("Absolute Move not supported");
                     }
 
+                    // Relative movement
+                    Random random = new Random();
+
+                    //float x = (panRange.getMax() + panRange.getMin())/2f;
+                    //float y = (tilRange.getMax() + tilRange.getMin())/2f;
+                    float x_rand = random.nextFloat()*2 - 1; // [-1:1]
+                    float y_rand = random.nextFloat()*2 - 1; // [-1:1]
+
+                    if (ptzDevices.isRelativeMoveSupported(profileToken)){
+                        boolean isSuccess = ptzDevices.relativeMove(profileToken, x_rand, y_rand, zomPos);
+                        System.out.println("Relative Move return code: " + isSuccess);
+                    }else{
+                        System.out.println("Relative Move not supported");
+                    }
+
                     try{
-                        Thread.sleep(5000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       );
+                        Thread.sleep(5000);
                     }catch (InterruptedException e){
                         System.out.println(e.getStackTrace());
                     }
                 }
 
-                if (ptzDevices.isRelativeMoveSupported(profileToken)){
-                    boolean isSuccess = ptzDevices.relativeMove(profileToken,x, y, zoom/2f);
-                    System.out.println("Relative Move return code: " + isSuccess);
-                }else{
-                    System.out.println("Relative Move not supported");
-                }
+
 
 
             }
